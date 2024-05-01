@@ -1,14 +1,112 @@
-.logo {}
-
-.navList {}
-
-.navList ul {}
-
-.navList li {}
-
-.navList NavLink {}
-
 nav {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: grid;
+    grid-template-columns: .4fr 1fr;
+    padding: 10px 20px;
+    align-items: center;
+}
 
+nav a {
+    text-decoration: none;
+}
+
+.navList {
+    display: grid;
+    grid-template-columns: 1fr .2fr;
+    align-items: center;
+    text-align: center;
+}
+
+.navList ul {
+    list-style: none;
+}
+
+.navList ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.navList ul li a {
+    transition: color 0.3s ease;
+}
+
+.navList ul li a:hover {
+    color: #555;
+}
+
+.navBtn {
+    display: flex;
+}
+
+.iconBtn {
+    padding: 10px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: .5em;
+
+}
+
+.iconBtn:hover {
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    background-color: whites;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
+}
+
+.priceIcon,
+.signinIcon {
+    font-size: 1.3rem;
+    margin-right: .3em;
+}
+
+.mobileNavBtn {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        grid-template-columns: 1fr auto;
+    }
+
+    .navList {
+        display: none;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .navList.open {
+        display: block;
+    }
+
+    .navList ul li {
+        display: block;
+        margin-bottom: 2em;
+    }
+
+    .navBtn {
+        display: block;
+    }
+
+    .iconBtn {
+        display: flex;
+        justify-content: center;
+        margin: 1em 3em 1em 3em;
+    }
+
+    .mobileNavBtn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menuIcon,
+    .closeIcon {
+        font-size: 1.5rem;
+    }
 }
