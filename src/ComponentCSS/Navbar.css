@@ -1,0 +1,14 @@
+.logo {}
+
+.navList {}
+
+.navList ul {}
+
+.navList li {}
+
+.navList NavLink {}
+
+nav {
+    display: grid;
+
+}
