@@ -9,6 +9,7 @@ nav {
 
 nav a {
     text-decoration: none;
+    color: black !important;
 }
 
 .navList {
@@ -29,10 +30,12 @@ nav a {
 
 .navList ul li a {
     transition: color 0.3s ease;
+    color: black !important;
+
 }
 
 .navList ul li a:hover {
-    color: #555;
+    color: #555 !important;
 }
 
 .navBtn {
@@ -50,7 +53,7 @@ nav a {
 
 .iconBtn:hover {
     transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-    background-color: whites;
+    background-color: white;
     color: black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
 }
