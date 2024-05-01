@@ -50,11 +50,11 @@ const Navbar = () => {
                             Pricing
                         </NavLink>
                         <NavLink
-                            to="/Registration"
-                            className="registrationBtn iconBtn "
+                            to="/SignIn"
+                            className="signInBtn iconBtn "
                             onClick={toggleMenu}
                         >
-                            <GoSignIn className="signinIcon" />
+                            <GoSignIn className="signInIcon" />
                             SignIn
                         </NavLink>
                     </div>

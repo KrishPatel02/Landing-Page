@@ -5,8 +5,8 @@ import Home from "./Pages/Home";
 import Pricing from "./Pages/Pricing";
 import OurProducts from "./Pages/OurProducts";
 import ContactUs from "./Pages/ContactUs";
-import Registration from "./Pages/Registration";
 import Navbar from "./Components/Navbar";
+import SignIn from "./Pages/SignIn";
 
 const App = () => {
     return (
@@ -18,7 +18,7 @@ const App = () => {
                     <Route path="/OurProducts" element={<OurProducts />} />
                     <Route path="/ContactUs" element={<ContactUs />} />
                     <Route path="/Pricing" element={<Pricing />} />
-                    <Route path="/Registration" element={<Registration />} />
+                    <Route path="/SignIn" element={<SignIn />} />
                 </Routes>
             </BrowserRouter>
         </>
