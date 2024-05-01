@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Ubuntu", sans-serif;
+}
+
+body {
     font-weight: 500;
     color: black;
 }
