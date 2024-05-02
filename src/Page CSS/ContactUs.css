@@ -22,6 +22,7 @@
 
 .inputField {
     margin-bottom: 20px;
+    display: flex;
 }
 
 .inputField input,
@@ -40,7 +41,7 @@
 
 button {
     background-color: white;
-    color: #007bff;
+    color: #007bff !important;
     width: 100%;
     font-size: 1.2rem;
     border: none;
@@ -52,14 +53,18 @@ button {
 }
 
 button:hover {
-    color: white;
+    color: white !important;
     background-color: #0056b3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
 }
 
 @media screen and (max-width: 768px) {
+    .contactUs {
+        background-color: white;
+    }
+
     .contactUsForm {
-        width: 80%;
+        width: 100%;
         max-width: 400px;
     }
 }
