@@ -1,0 +1,92 @@
+.pricingTitle {
+    font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 2em;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.plan {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 0em 5em 5em 5em;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.plan:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
+    transform: translateY(-25px);
+}
+
+.planPrice {
+    font-size: 24px;
+    margin-bottom: 1em;
+}
+
+.planFeatureList {
+    list-style: none;
+}
+
+.planFeatureList li {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.pricingIcon {
+    margin-right: 10px;
+}
+
+.checkOrangeIcon {
+    color: orange;
+}
+
+.checkGreenIcon {
+    color: green;
+}
+
+.crossRedIcon {
+    color: red;
+}
+
+.chooseBtn {
+    color: #007bff;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 2em;
+    transition: background-color 0.3s ease;
+}
+
+.chooseBtn:hover {
+    background-color: #0056b3;
+}
+
+@media only screen and (max-width: 768px) {
+    .pricing {
+        flex-direction: column;
+    }
+}
+
+.popularTag {
+    background-color: #0056b3;
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-bottom: 5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
+    transform: rotate(-45deg) translateX(-55%) translateY(-120%);
+}
