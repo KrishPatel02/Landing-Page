@@ -1,0 +1,56 @@
+.signIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #10151d;
+}
+
+.signInForm {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    width: 50vw;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.258);
+    transition: all 0.3s ease;
+}
+
+.inputField {
+    align-items: center;
+}
+
+.icon {
+    margin-right: 1em;
+    font-size: 1.5em;
+}
+
+button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+    .signIn {
+        background-color: white;
+    }
+
+    .signInForm {
+        width: 100%;
+        max-width: 400px;
+        padding: 10px;
+    }
+}
