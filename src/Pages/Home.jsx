@@ -20,7 +20,7 @@ const Home = () => {
                         <IoMdPricetag />
                         Pricing
                     </NavLink>
-                    <NavLink to="/Registration" className="signinBtn headerBtn">
+                    <NavLink to="/SignIn" className="signInBtn headerBtn">
                         <GoSignIn />
                         Sign In
                     </NavLink>
