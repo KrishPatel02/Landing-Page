@@ -1,10 +1,16 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
+
 import { NavLink } from "react-router-dom";
+
 import { RiMenu4Fill } from "react-icons/ri";
+
 import { IoClose } from "react-icons/io5";
+
 import { GoSignIn } from "react-icons/go";
+
 import { IoMdPricetag } from "react-icons/io";
+
 import "../ComponentCSS/Navbar.css";
 
 const Navbar = () => {
@@ -22,6 +28,7 @@ const Navbar = () => {
                         <NavLink to="/">TransDigi</NavLink>
                     </h1>
                 </div>
+
                 <div className={`navList ${isMenuOpen ? "open" : ""}`}>
                     <ul>
                         <li>
@@ -29,17 +36,20 @@ const Navbar = () => {
                                 Home
                             </NavLink>
                         </li>
+
                         <li>
                             <NavLink to="/OurProducts" onClick={toggleMenu}>
                                 Our Products
                             </NavLink>
                         </li>
+
                         <li>
                             <NavLink to="/ContactUs" onClick={toggleMenu}>
                                 Contact Us
                             </NavLink>
                         </li>
                     </ul>
+
                     <div className="navBtn">
                         <NavLink
                             to="/Pricing"
@@ -49,6 +59,7 @@ const Navbar = () => {
                             <IoMdPricetag className="priceIcon" />
                             Pricing
                         </NavLink>
+
                         <NavLink
                             to="/SignIn"
                             className="signInBtn iconBtn "
@@ -59,6 +70,7 @@ const Navbar = () => {
                         </NavLink>
                     </div>
                 </div>
+
                 <div className="mobileNavBtn" onClick={toggleMenu}>
                     {isMenuOpen ? (
                         <IoClose className="closeIcon mobileNavIcon" />

@@ -2,7 +2,7 @@ nav {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: grid;
-    grid-template-columns: .4fr 1fr;
+    grid-template-columns: 0.4fr 1fr;
     padding: 10px 20px;
     align-items: center;
 }
@@ -12,9 +12,13 @@ nav a {
     color: black !important;
 }
 
+.logo h1 {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
+}
+
 .navList {
     display: grid;
-    grid-template-columns: 1fr .2fr;
+    grid-template-columns: 1fr 0.2fr;
     align-items: center;
     text-align: center;
 }
@@ -31,7 +35,6 @@ nav a {
 .navList ul li a {
     transition: color 0.3s ease;
     color: black !important;
-
 }
 
 .navList ul li a:hover {
@@ -47,8 +50,7 @@ nav a {
     border-radius: 5px;
     display: flex;
     align-items: center;
-    margin-right: .5em;
-
+    margin-right: 0.5em;
 }
 
 .iconBtn:hover {
@@ -61,7 +63,7 @@ nav a {
 .priceIcon,
 .signInIcon {
     font-size: 1.3rem;
-    margin-right: .3em;
+    margin-right: 0.3em;
 }
 
 .mobileNavBtn {
