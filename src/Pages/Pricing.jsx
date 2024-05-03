@@ -16,7 +16,7 @@ const Pricing = () => {
         <>
             <h1 className="pricingTitle">
                 <IoMdPricetag />
-                Pricing
+                Pick your Plan
             </h1>
 
             <div className="pricing">

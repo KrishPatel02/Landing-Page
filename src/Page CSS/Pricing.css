@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 0.5em;
     padding: 2em;
+    margin-bottom: 1em;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
 }
 
@@ -21,12 +22,12 @@
     border-radius: 5px;
     padding: 0em 5em 5em 5em;
     text-align: center;
-    transition: all 0.3s ease;
+    transition: all 0.7s ease;
 }
 
 .plan:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
-    transform: translateY(-25px);
+    transform: translateY(-50px);
 }
 
 .planPrice {
@@ -75,18 +76,18 @@
     background-color: #0056b3;
 }
 
+.popularTag {
+    background-color: #0056b3;
+    color: white;
+    padding: 0.7em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
+    transform: translateY(-50%);
+}
+
 @media only screen and (max-width: 768px) {
     .pricing {
         flex-direction: column;
     }
-}
-
-.popularTag {
-    background-color: #0056b3;
-    color: white;
-    padding: 0.5em;
-    border-radius: 5px;
-    margin-bottom: 5em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
-    transform: rotate(-45deg) translateX(-55%) translateY(-120%);
 }
