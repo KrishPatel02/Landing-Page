@@ -23,10 +23,11 @@ const Plans = [
 
             "Email Accounts",
 
-            "FTP Access",
         ],
 
         featureExcluded: [
+            "FTP Access",
+
             "Marketing Integrations",
 
             "AI Copywriting Tool",
@@ -74,10 +75,11 @@ const Plans = [
             "Marketing Integrations",
 
             "AI Copywriting Tool",
+
+            "AI Heatmaps",
         ],
 
         featureExcluded: [
-            "AI Heatmaps",
 
             "AI SEO Tools",
 

@@ -38,8 +38,8 @@ const Navbar = () => {
                         </li>
 
                         <li>
-                            <NavLink to="/OurProducts" onClick={toggleMenu}>
-                                Our Products
+                            <NavLink to="/Services" onClick={toggleMenu}>
+                                Services
                             </NavLink>
                         </li>
 

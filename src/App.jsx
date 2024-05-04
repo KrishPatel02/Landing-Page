@@ -7,13 +7,13 @@ import Home from "./Pages/Home";
 
 import Pricing from "./Pages/Pricing";
 
-import OurProducts from "./Pages/OurProducts";
-
 import ContactUs from "./Pages/ContactUs";
 
 import Navbar from "./Components/Navbar";
 
 import SignIn from "./Pages/SignIn";
+
+import Services from "./Pages/Services";
 
 const App = () => {
     return (
@@ -24,7 +24,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<Home />} />
 
-                    <Route path="/OurProducts" element={<OurProducts />} />
+                    <Route path="/Services" element={<Services />} />
 
                     <Route path="/ContactUs" element={<ContactUs />} />
 
