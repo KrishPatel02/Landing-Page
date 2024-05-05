@@ -1,11 +1,12 @@
 .header {
-    height: 50vh;
+    height: 60vh;
     background-color: #10151d;
     color: white;
     display: grid;
     grid-template-columns: 2fr 1.5fr;
     place-items: center;
     padding: 2em;
+    text-align: left;
 }
 
 .header h1 {
@@ -38,7 +39,7 @@
     align-items: center;
     cursor: pointer;
     margin: 10px;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .headerBtn:hover {
@@ -62,5 +63,4 @@
         margin: auto auto 10px auto;
         justify-content: center;
     }
-
 }
