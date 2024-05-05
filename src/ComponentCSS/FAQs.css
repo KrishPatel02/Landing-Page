@@ -1,0 +1,27 @@
+.faqh1 {
+    text-align: center;
+    padding: 3em 1em 1em 1em;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
+}
+
+.accordion {
+    padding: 1em 20em 1em 20em;
+}
+
+.accordionFAQs {
+    border-radius: 5px !important;
+    margin-bottom: 0.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258) !important;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .accordion {
+        padding: 1em 3em 1em 3em;
+    }
+}
+@media screen and (max-width: 768px) {
+    .accordion {
+        padding: 1em .5em 1em .5em;
+    }
+}
