@@ -11,6 +11,8 @@ import { PiSignInBold } from "react-icons/pi";
 
 import { FcGoogle } from "react-icons/fc";
 
+import Button from "@mui/material/Button";
+
 const SignIn = () => {
     return (
         <div className="signIn">
@@ -30,20 +32,20 @@ const SignIn = () => {
                         <input type="password" placeholder="Password" />
                     </div>
 
-                    <button type="submit">
+                    <Button variant="contained">
                         <pre>Sign In </pre>
 
                         <PiSignInBold />
-                    </button>
+                    </Button>
                 </form>
 
                 <div className="or">
                     <span>Or</span>
                 </div>
 
-                <button className="googleSignIn">
+                <Button variant="contained">
                     <pre>Sign In with </pre> <FcGoogle />
-                </button>
+                </Button>
             </div>
         </div>
     );

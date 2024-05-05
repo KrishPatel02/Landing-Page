@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-    background-color: #10151d;
+    height: 90vh;
 }
 
 .signInForm {
@@ -15,8 +14,12 @@
     padding: 40px;
     width: 50vw;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.258);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
     transition: all 0.3s ease;
+}
+
+.signInForm h1 {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
 }
 
 .inputField {
@@ -28,29 +31,15 @@
     font-size: 1.5em;
 }
 
-button {
-    color: white;
-    border: none;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
 @media screen and (max-width: 768px) {
     .signIn {
         background-color: white;
+        padding: 10px;
     }
 
     .signInForm {
         width: 100%;
         max-width: 400px;
-        padding: 10px;
+        padding: 5px;
     }
 }
