@@ -9,6 +9,8 @@ import { MdEmail } from "react-icons/md";
 
 import { FaMessage } from "react-icons/fa6";
 
+import Button from "@mui/material/Button";
+
 const Contact = () => {
     return (
         <>
@@ -35,7 +37,9 @@ const Contact = () => {
                             <textarea rows="5" placeholder="Message"></textarea>
                         </div>
 
-                        <button type="submit">Submit</button>
+                        <Button variant="contained" className="contactSubmitBtn">
+                            Submit
+                        </Button>
                     </form>
                 </div>
             </div>
