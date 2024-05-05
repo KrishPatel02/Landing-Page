@@ -5,6 +5,9 @@ nav {
     grid-template-columns: 0.4fr 1fr;
     padding: 10px 20px;
     align-items: center;
+    width: 100vw;
+    position: fixed;
+    z-index: 1000;
 }
 
 nav a {
