@@ -11,6 +11,8 @@ import Plans from "../API/PricingAPI";
 
 import { IoMdPricetag } from "react-icons/io";
 
+import Button from "@mui/material/Button";
+
 const Pricing = () => {
     return (
         <>
@@ -52,7 +54,9 @@ const Pricing = () => {
                             ))}
                         </ul>
 
-                        <button className="chooseBtn">Choose Plan</button>
+                        <Button variant="contained" className="chooseBtn">
+                            Choose Plan
+                        </Button>
                     </div>
                 ))}
             </div>

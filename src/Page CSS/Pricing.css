@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 0.5em;
-    padding: 2em;
+    padding:3em 0em 2em 0em;
     margin-bottom: 1em;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
 }
@@ -61,19 +61,14 @@
 }
 
 .chooseBtn {
-    color: #007bff;
-    background-color: white;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 2em;
-    transition: background-color 0.3s ease;
+    background-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.258) !important;
+    margin-top: 2em !important;
+    transition: background-color 0.3s ease !important;
 }
 
 .chooseBtn:hover {
-    background-color: #0056b3;
+    background-color: #0056b3 !important;
 }
 
 .popularTag {
@@ -86,7 +81,7 @@
     transform: translateY(-50%);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .pricing {
         flex-direction: column;
     }
