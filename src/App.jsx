@@ -3,17 +3,21 @@ import React from "react";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Navbar from "./Components/Navbar";
+
 import Home from "./Pages/Home";
 
-import Pricing from "./Pages/Pricing";
+import Services from "./Pages/Services";
+
+import FAQs from "./Components/FAQs";
 
 import ContactUs from "./Pages/ContactUs";
 
-import Navbar from "./Components/Navbar";
+import Pricing from "./Pages/Pricing";
 
 import SignIn from "./Pages/SignIn";
 
-import Services from "./Pages/Services";
+import Footer from "./Pages/Footer";
 
 const App = () => {
     return (
@@ -26,12 +30,16 @@ const App = () => {
 
                     <Route path="/Services" element={<Services />} />
 
+                    <Route path="/FAQs" element={<FAQs />} />
+
                     <Route path="/ContactUs" element={<ContactUs />} />
 
                     <Route path="/Pricing" element={<Pricing />} />
 
                     <Route path="/SignIn" element={<SignIn />} />
                 </Routes>
+
+                <Footer />
             </BrowserRouter>
         </>
     );
