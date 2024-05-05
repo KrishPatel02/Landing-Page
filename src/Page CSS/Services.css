@@ -1,0 +1,65 @@
+.services {
+    display: grid;
+    place-items: center;
+    padding: 5em 3em 3em 3em ;
+}
+
+.servicesTitle {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.services h1 {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.258);
+}
+
+.serviceBoxes {
+    display: grid;
+    gap: 7em;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.serviceBox {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    transition: transform 0.5s ease-in-out;
+}
+
+.oddServiceBox {
+    flex-direction: row;
+}
+
+.evenServiceBox {
+    flex-direction: row-reverse;
+}
+
+.serviceBox:hover {
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+.serviceBox h1 {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 1200px) {
+    .serviceBoxes {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .serviceBox img {
+        width: 100px;
+    }
+
+    .serviceBox {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
